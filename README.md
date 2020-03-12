@@ -2,6 +2,8 @@
 
 ### CO.VID19.ID
 
+API : https://co.vid19.id/api/dashboard
+
 #### BASH
 ```
 #!/bin/bash
