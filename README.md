@@ -2,7 +2,7 @@
 
 ### CO.VID19.ID
 
-Version BASH 
+#### BASH
 ```
 #!/bin/bash
 # @author : Rafshanzani Suhada
@@ -34,8 +34,7 @@ do
  clear
 done
 ```
-
-Version PYTHON
+#### PYTHON
 ```
 #!/usr/bin/python
 # @author : Rafshanzani Suhada
