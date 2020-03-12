@@ -71,7 +71,7 @@ while True:
 ```
 
 #### Optional Data
-API="https://co.vid19.id/api/victim/list"
+API = https://co.vid19.id/api/victim/list
 
 - PRIA (GENDER 1)
 ```
