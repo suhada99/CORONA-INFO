@@ -21,7 +21,7 @@ def MengambilData():
   Meninggal = PD['total_death']
   MengirimData(Hari_Ini, Positif, Sembuh, Meninggal)
  except Exception as e:
- 	raise
+  raise
 print " ====== CORONA UPDATE ======"
 print " @author : Rafsanzani Suhada"
 print " ==========================="
