@@ -69,3 +69,16 @@ while True:
  MengambilData()
  time.sleep( 5 )
 ```
+
+#### Optional Data
+$ API="https://co.vid19.id/api/victim/list"
+- PRIA (GENDER 1)
+```
+$ curl -s "${API}?start_date=1581699600&end_date=$(date -u +%s)&confirmed=true" | jq .[].gender | grep '1' | wc -l
+16
+```
+- WANITA (GENDER 0)
+```
+$ curl -s "${API}?start_date=1581699600&end_date=$(date -u +%s)&confirmed=true" | jq .[].gender | grep '0' | wc -l
+14
+```
